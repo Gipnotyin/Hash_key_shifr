@@ -1,2 +1,2 @@
-hash-key one: 5
-hash-key two: 6
+hash-key one: 6
+hash-key two: 5

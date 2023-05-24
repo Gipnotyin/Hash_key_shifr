@@ -41,6 +41,7 @@ int main() {
         std::cout << "Ваш выбор: ";
         int choice;
         std::cin >> choice;
+        system("cls");
         switch (choice)
         {
         case SEE_ALL_NOTES:
@@ -56,7 +57,7 @@ int main() {
             std::cin >> edit;
             if (edit == 1) {
                 system("cls");
-                std::cout << "Введите текст, для завершения ввода нажмите Esc\n";
+                std::cout << "Введите текст\n";
                 std::string new_note_one;
                 getline(std::cin, new_note_one);
                 std::cout << "Примечание для добавления: ";
